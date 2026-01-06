@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SUB>
+<SUB DOC_VERSION="2" AME_VERSION="2304" MAJ="20231" UPDATE="0" HOTFIX="0">
+
+ <SUPERCOMPONENT>
+  <SC_SUB_NAME>SC_1</SC_SUB_NAME>
+  <CATNAME>TestingSC</CATNAME>
+  <SC_PORTS_MAP_LIST>
+  </SC_PORTS_MAP_LIST>
+  <CIRCUIT>
+   <AME_APPLICATION>AMESim</AME_APPLICATION>
+   <COMPS_LIST>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>step</ALIAS>
+     <COMP_NAME>step</COMP_NAME>
+     <COMP_DISPLAYNAME>step</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>step signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.step</COMP_LIBRARY_ID>
+     <COMP_POS>67 67</COMP_POS>
+     <COMP_DEPTH>201</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCp1SsXLjIBDt/RU7m8KNgwDZE8ljnJkrrroiRa72ODKWmRDQAJHkv79FtnMurrgJzS7LY997LJvn8cNCr0M03qm5YHwO2jX+YFyr5r9ffz5W8+ftbBP7FgjposJTSt26KIZhYEPJfGgLyTkvCIEXyHq0xr3/Cyjqui6mU/ziRMEkwts+6pfgj8Zqhcm4M4I5KPxlem2t3wlqrZB3I8L5GgdzSCeFy2lz0qY9JYWyzrve6OGHzxeAw5KDrBE88R2tHxTGJnhrJ63r2O0bIuyCjjr0Gslpu50BwKYxobEaSJBV+HCcFkJMwb/ThQc+rVvh8cMkHayhQH6o3BC5WLIVZedbFnKCxaV95+2Z3uFG4LzT/9+988YlmsRqISq2AsHZfZYTWU4BMt2maLOt6T2bz5h2YhdN6/YWL1K+LWMUCsuSJiJuFkeZB0IVea3cuW29+xIuq4UQpK+UTCwyEHLl6RorVkFZsvrvCWfy3kv+a9vZHz/V+s+7AgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCB5PSIxNSIgZmFjZT0iMyIgdHlwZT0ic2lnbmFsIiB4PSI0MCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KIDwvUE9SVFM+Cg==
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>40 15</PORT_POS>
+       <PORT_FACE>3</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>STEP0</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>37</SUB_ID_MAX>
+      <AUTONOMOUS_COMPILATION>False</AUTONOMOUS_COMPILATION>
+      <AUTONOMOUS_RUNTIME>False</AUTONOMOUS_RUNTIME>
+      <SUB_LABEL>step function</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <R_STORES_NUMBER>6</R_STORES_NUMBER>
+      <I_STORES_NUMBER>1</I_STORES_NUMBER>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <TIME_REQUIRED>1</TIME_REQUIRED>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>2</SUB_ID>
+        <TITLE>value before step</TITLE>
+        <PARAM_IMAGE>${library_node}/embedded_files/images/STEP0_out0.png</PARAM_IMAGE>
+        <VARNAME>out0</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <HISTORY_VARIABLE>out00GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>value after step</TITLE>
+        <PARAM_IMAGE>${library_node}/embedded_files/images/STEP0_out1.png</PARAM_IMAGE>
+        <VARNAME>out1</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>1.00000000000000e+00</DEF_VALUE>
+        <VALUE>1.00000000000000e+00</VALUE>
+        <HISTORY_VARIABLE>out10GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>4</SUB_ID>
+        <TITLE>step time</TITLE>
+        <PARAM_IMAGE>${library_node}/embedded_files/images/STEP0_t0.png</PARAM_IMAGE>
+        <VARNAME>t0</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <HISTORY_VARIABLE>t00GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>7</SUB_ID>
+        <TITLE>transition duration</TITLE>
+        <PARAM_IMAGE>${library_node}/embedded_files/images/SQW00_transition.png</PARAM_IMAGE>
+        <VARNAME>td</VARNAME>
+        <VISIBILITY>transitionType>1</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e-01</DEF_VALUE>
+        <VALUE>1.00000000000000e-01</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>5</SUB_ID>
+        <TITLE>transition type</TITLE>
+        <PARAM_IMAGE>${library_node}/embedded_files/images/SQW00_transition.png</PARAM_IMAGE>
+        <VARNAME>transitionType</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>discontinuous</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>polynomial (order 3)</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>polynomial (order 5)</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>35</SUB_ID>
+        <TITLE>value before step - Linked variable</TITLE>
+        <VARNAME>out00GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>36</SUB_ID>
+        <TITLE>value after step - Linked variable</TITLE>
+        <VARNAME>out10GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>37</SUB_ID>
+        <TITLE>step time - Linked variable</TITLE>
+        <VARNAME>t00GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>s</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>step output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>signalsink</ALIAS>
+     <COMP_NAME>signalsink</COMP_NAME>
+     <COMP_DISPLAYNAME>signalsink</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>general signal sink</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.signalsink</COMP_LIBRARY_ID>
+     <COMP_POS>107 77</COMP_POS>
+     <COMP_DEPTH>202</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCp1RPW/DIBDd+ytO18FLaoz7kTgKidShU4cO7RylDsEoBCygxv73PTtp1KFTGbgPHu/d0602/clAJ33QzoqM50UG0tZur60S2cf7y90i26xvVqFTQEgbBDYxtkvGUkp5us+dV6wsioIRAs+QZW+0Pf4F5FVVsekVr5rI8xLhcxfkm3cHbaTAqO2AoPcCX3UnjXFbTtQCi7ZHGC4x6X1sBFZj3kitmngpOi3TsxvhUEAFFYIjrYNxSWCovTNmmnMZ2l1NYq2XQfpOIrn0so6j0PxKX/4iR0YQNc1Vf4W45dugld0Z+gkAK7IlgQwYgdZZiRCid0dSuC2m89O4O+kovdEUyDy1e06zkjEKD/kj1aXApzEZynOHnQVaZ4Z/i7RO20jbK2cc5jNihXK2AJg8MTVetMD1NyXBqRUPAgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCB5PSI1IiBmYWNlPSIyIiB0eXBlPSJzaWduYWwiIHg9IjEiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9zaWduYWwxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiA8L1BPUlRTPgo=
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>1 5</PORT_POS>
+       <PORT_FACE>2</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>2</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>SSINK</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>1</SUB_ID_MAX>
+      <AUTONOMOUS_COMPILATION>False</AUTONOMOUS_COMPILATION>
+      <AUTONOMOUS_RUNTIME>False</AUTONOMOUS_RUNTIME>
+      <SUB_LABEL>plug for signal port</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <HAS_NO_CALC>1</HAS_NO_CALC>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>signal input</TITLE>
+         <VARNAME>sink</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>gravityicon</ALIAS>
+     <COMP_NAME>gravityicon</COMP_NAME>
+     <COMP_DISPLAYNAME>gravityicon</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>sets the gravity</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>meca.gravityicon</COMP_LIBRARY_ID>
+     <COMP_POS>84 139</COMP_POS>
+     <COMP_DEPTH>203</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCrWTTY/TMBCG7/srLO+hF9u1nY+tq82uBBInkJAKZ1RctzWbjas4JF1+Pa+TdCUqQOKA1ek7mUxmnhkl94/n55r0ro0+NNVCCbkgrrFh55tDtfj86R1fLR4fbu5jfyDIbGJFj113Wi+XwzCIIROhPSy1lHKJDDqlrM+1b55+l6iMMcvxLn3tSZXQlHzdRvexDXtfu4p2vnmhxO8q+t73rq7DF4XSFZWnMyUvsw5+1x0rmpl0cXT+cOwuV713w5uQHiCSZAY/SgL67eswVDTaNtT1yLqOp61Fw1Promt7RzGp9a2tHQFJXdHb/XgoiV0bnpB5K8dzCfCZQr8Gnn3n2tpDMBnyLDCUEQW8l4vXwlnBWaLdadsdL83seCjB4B+0Yrq0PBMZk2LFS2EYFsWNKKG51UzDK4RiOTRFoVZJJpnSouB3kyglisg1RzdewAwhlkthYIor1E2qxR16KKtQLZkWOWzFUjwX5q1eIZDImTZM415C+3FN34TG/XlP12sZRwRrJgoL6BFQJZNog+BGKZbp1CrT8XoiQn6ZaTMXYrP+IxpeR/cteLyJbfje7P6KXDBVTMTYTMETbMmzmHwNT4EMkNgiYCYF6cxZpv/IR1BesHwzFWOT/EdonVqWvZ5XrZNd4LDfZGmjimdpIJ5vpgfYJBNY+rwfbn4CHtKPAC4EAAA=
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUy8+Cg==
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>1</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>GRAV0</SUB_NAME>
+      <SUB_DIR>$AME/libmec/submodels</SUB_DIR>
+      <SUB_ID_MAX>9</SUB_ID_MAX>
+      <AUTONOMOUS_COMPILATION>False</AUTONOMOUS_COMPILATION>
+      <AUTONOMOUS_RUNTIME>False</AUTONOMOUS_RUNTIME>
+      <SUB_LABEL>sets the gravity of the whole system</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <I_STORES_NUMBER>1</I_STORES_NUMBER>
+      <TIME_REQUIRED>1</TIME_REQUIRED>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>5</SUB_ID>
+        <TITLE>constant gravity value</TITLE>
+        <VARNAME>fixedg</VARNAME>
+        <VISIBILITY>(gtype == 1)</VISIBILITY>
+        <DEF_VALUE>9.80665000000000e+00</DEF_VALUE>
+        <VALUE>9.80665000000000e+00</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>m/s/s</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>1</SUB_ID>
+        <TITLE>setting type</TITLE>
+        <VARNAME>gtype</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>constant</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>from file</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>8</SUB_ID>
+        <TITLE>data out of range mode</TITLE>
+        <VARNAME>mode</VARNAME>
+        <VISIBILITY>(gtype == 2)</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>extrapolation</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>extreme value</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>cyclic</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>6</SUB_ID>
+        <TITLE>discontinuity handling</TITLE>
+        <VARNAME>disc</VARNAME>
+        <VISIBILITY>(gtype == 2)</VISIBILITY>
+        <DEF_VALUE>2</DEF_VALUE>
+        <VALUE>2</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>inactive</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>active</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <TPARAMS_LIST>
+       <TPARAM>
+        <SUB_ID>2</SUB_ID>
+        <TITLE>filename for g = f(t)</TITLE>
+        <VARNAME>gfile</VARNAME>
+        <VISIBILITY>(gtype == 2)</VISIBILITY>
+        <DEF_VALUE>file.data</DEF_VALUE>
+        <VALUE>file.data</VALUE>
+        <TEXT_TYPE>1</TEXT_TYPE>
+       </TPARAM>
+      </TPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>value of gravity</TITLE>
+        <VARNAME>g</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>m/s/s</UNITS>
+       </IVAR>
+      </IVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+   </COMPS_LIST>
+   <ANIMATION_PROPERTIES>
+    <SPEED>1.00000000000000e+00</SPEED>
+    <LOOP>0</LOOP>
+   </ANIMATION_PROPERTIES>
+  </CIRCUIT>
+ </SUPERCOMPONENT>
+</SUB>
